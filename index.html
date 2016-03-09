@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Philoshophie Form</title>
+	<link type="text/css" rel="stylesheet" href="normalize.css">
+	<link type="text/css" rel="stylesheet" href="css/my.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<main class="container">
+		<div class="header">
+			<h1>Send us a message</h1>
+			<p>We usually respond within 1 business day.</p>
+		</div>
+
+		<form action="index.html" method="get" enctype="multipart/form-data">
+			<fieldset>
+				<legend>General Info</legend>
+				<label for="name">Name &#42;</label>
+				<input type="text" name="firstname" id="firstname" placeholder="John Smith">
+				<label for="email">Email &#42;</label>
+				<input type="email" name="email" id="email" placeholder="name@mydomain.com">
+				<label for="name">Company</label>
+				<input type="text" name="firstname" id="firstname" placeholder="Acme Inc.">
+				<label for="name">How did you hear about us?</label>
+				<input type="text" name="firstname" id="firstname" placeholder="Event">
+			</fieldset>
+			<h3>What would you like to discuss?</h3>
+			<fieldset>
+				<div class="input-wrapper">
+					<input type="radio" name="topic" id="topic1">
+					<label for="topic">Hiring Philosophie</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="radio" name="topic" id="topic2">
+					<label for="topic">Joining the Philiosophie team</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="radio" name="topic" id="topic3">
+					<label for="topic">Other</label>
+				</div>
+
+			</fieldset>
+			<fieldset>
+				<legend>Project Info</legend>
+				<h3>Which of our offerings interest you?</h3>
+				<div class="input-wrapper">
+					<input type="checkbox" name="offer" id="offer1">
+					<label for="offer">Lean Branding</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="checkbox" name="offer" id="offer2">
+					<label for="offer">4 Week MVP</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="checkbox" name="offer" id="offer3">
+					<label for="offer">Product Team</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="checkbox" name="offer" id="offer4">
+					<label for="offer">Design Sprint</label>
+				</div>
+				<div class="input-wrapper">
+					<input type="checkbox" name="offer" id="offer5">
+					<label for="offer">Other</label>
+				</div>
+			</fieldset>
+			<fieldset>
+				<h3>What is the problem you are trying to solve?</h3>
+				<textarea for name="textarea" id="textarea1" cols="100" rows="5"></textarea>
+			</fieldset>
+			<fieldset>
+				<h3>What do you hope our engagement will accomplish?</h3>
+				<textarea for name="textarea" id="textarea2" cols="100" rows="5"></textarea>
+			</fieldset>
+
+			<h3>What is your budget range?</h3>
+
+			<div class="input-wrapper">
+				<input type="radio" name="budget" id="budget1">
+				<label for="budget">Less than $40k</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="radio" name="budget" id="budget2">
+				<label for="budget">$40k - $100k</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="radio" name="budget" id="budget3">
+				<label for="budget">$100k - $250k</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="radio" name="budget" id="budget4">
+				<label for="budget">$250k - $500k</label>
+			</div>
+			<div class="input-wrapper">
+				<input type="radio" name="budget" id="budget5">
+				<label for="budget">$500k +</label>
+			</div>
+
+
+			<input type="submit" name="submit" value="Submit">
+
+		</form>
+
+	</main>
+
+</body>
+
+</html>
